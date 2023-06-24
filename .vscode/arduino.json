@@ -1,6 +1,6 @@
 {
-    "sketch": "main\\main.ino",
+    "sketch": "main/main.ino",
     "board": "arduino:avr:leonardo",
-    "port": "COM3",
+    "port": "/dev/tty.usbmodem14201",
     "programmer": "avrisp"
 }
