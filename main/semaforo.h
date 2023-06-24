@@ -3,8 +3,7 @@
 
 #include <Arduino.h>
 
-int apagarLeds(void);
-
-bool encenderLed(void);
+int FuncionamientoSemaforo(void);
 
 #endif
+
