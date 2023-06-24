@@ -22,15 +22,13 @@ int FuncionamientoSemaforo(){
 	float valores=1;
 	bool ff = 0;
 	while (1){
-		/*if(!digitalRead(10)){
-			break;
-		}*/
 		valores = definirTiempo(valores);
 		switch (eActual){
 		case verde:
 			encender(2);
 			break;
 		case amarillo:
+			encender(2);
 			encender(3);
 			break;
 		case rojo:
