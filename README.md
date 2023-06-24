@@ -12,5 +12,7 @@ Como módulos se usarán los archivos:
 - ```uart.h```
 - ```semaforo.c```
 - ```semaforo.h```
+-```teclas.c```
+- ```teclas.h```
 
-En el archivo ```semaforo.c``` se encuentra el funcionamiento de los diferentes modos y en el archivo ```uart.c``` se encuentra el código que muestra en el serial cuando existe un cambio de la máquina de estados del semáforo. 
+En el archivo ```semaforo.c``` se encuentra el funcionamiento de los diferentes modos y en el archivo ```uart.c``` se encuentra el código que muestra en el serial cuando existe un cambio de la máquina de estados del semáforo. Finalmente, dentro del archivo ```teclas.c``` se realiza la implementacion antirebote mediante software para los pulsadores.
